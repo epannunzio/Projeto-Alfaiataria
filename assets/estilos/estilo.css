@@ -1,9 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-image: url('https://d5v3f2s5.rocketcdn.me/wp-content/uploads/2021/03/Alfaiataria-masculina-o-Guia-completo-da-roupa-sob-medida-02.jpg');
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: block;
-    background-size: 100% 13.5%;
+   
 }
 
 .titulo-nav {
@@ -14,6 +15,11 @@ body {
     font-family: 'Saira Condensed', sans-serif;
 }
 
+.banner {
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+}
+
 .texto-banner1 {
     color: rgb(175, 150, 80);
     font-family: 'Playfair Display', serif;
@@ -22,7 +28,7 @@ body {
 }
 
 .texto-banner2 {
-    color: rgb(14, 68, 94);
+    color: rgb(28 130 180);
     font-size: 65px;
     text-transform: uppercase;
     font-family: 'Newsreader', serif;
@@ -43,38 +49,29 @@ body {
 }
 
 .sobre {
-    padding-top: 80px;
-    padding-left: 550px;
-    padding-right: 90px;
+    padding-left: 250px;
 }
 
 .renee {
-    padding-top: 90px;
-    padding-left: 180px;
+    padding-left: 30px;
     width: 35%;
 }
 
 .post-blockquote {
-    color: rgb(0, 132, 255);
+    color: rgb(32 103 170);
     font-family: 'Playfair Display', serif;
     font-size: 20px;
     font-style: italic;
-    position: relative;
-    display: block;
-    text-align: right;
-    margin-top: 5px;
 }
 
 .post-blockquote:before {
-    display: block;
     float: left;
     content: "\201C";
-    font-size: 300px;
+    font-size: 250px;
     color: rgba(39, 210, 233, 0.253);
     background-color: transparent;
     padding: 15px 12px 5px 8px;
-    width: 50px;
-    height: 50px;
+    width: 100px;
     line-height: 90px;
 }
 
@@ -85,9 +82,6 @@ body {
 .nome-sobre {
     color: rgb(39, 106, 133);
     border-bottom: 1px solid #1e5863;
-    left:10px;
-    top:68px;
-    width: 5%;
     font-family: 'Playfair Display', serif;
 }
 
@@ -104,11 +98,12 @@ body {
     color: black;
 }
 
-.botão2 {
+.botao2 {
     background-color: rgb(2, 43, 59);
     font-family: 'News Cycle', sans-serif;
     font-size: 15px;
     float: right;
+    margin-right: 20px;
     color: rgb(189, 189, 189);
 }
 
@@ -127,8 +122,13 @@ body {
 }
 
 .card {
-    width: 1344px;
+    width: 100%;
     margin-top: 100px;
+}
+
+.quality-icons {
+    display: flex;
+    padding: 50px;
 }
 
 .card-text {
@@ -178,7 +178,7 @@ body {
     font-family: 'Newsreader', serif;
     font-size: 35px;
     padding-top: 15px;
-    padding-left: 150px;
+    padding-left: 50px;
     text-transform: uppercase;
 }
 
@@ -186,13 +186,13 @@ body {
     color: rgb(190, 158, 74);
     font-family: 'Newsreader', serif;
     font-size: 20px;
-    padding-left: 150px;
+    padding-left: 50px;
 }
 
 .faixa-azul-p {
     color: rgb(218, 216, 216);
     padding-top: 25px;
-    padding-left: 150px;
+    padding-left: 50px;
     font-family: 'Newsreader', serif;
 }
 
@@ -205,11 +205,21 @@ body {
     border: 1px solid rgb(179, 159, 46);
     background-color: transparent;
     color: black;
+}
 
+.photo {
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.depoimentos {
+    width: 850px;
+    margin: 0 auto;
 }
 
 .alfaiataria-camisaria {
-    padding-bottom: 400px;
+    height: 900px;
     width: 100%;
 }
 
@@ -228,7 +238,7 @@ body {
 
 .camisaria-txt {
     float: right;
-    margin-right: 270px;
+    margin-right: 28%;
     margin-top: 30px;
     font-family: 'Newsreader', serif;
     color: rgb(189, 189, 189);
@@ -265,7 +275,7 @@ body {
 }
 
 .alfaiataria-img {
-    margin-right: 160px;
+    margin-right: 140px;
 }
 
 .alfaiataria-borda {
@@ -299,7 +309,7 @@ body {
 }
 
 .img-carousel {
-    margin-left: 600px;
+  
 }
 
 .carousel {
@@ -338,7 +348,6 @@ body {
 }
 
 .info-box-1 {
-    margin-left: 620px;
     text-transform: uppercase;
 }
 
@@ -381,16 +390,22 @@ body {
     text-transform: uppercase;
 }
 
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
 .img-footer {
     margin-left: 50px;
 }
 
 .p-footer {
     text-transform: uppercase;
-    color:  rgb(163, 161, 161);
+    color:  rgb(17 32 85);
     margin-left: 57px;
     font-family: 'Newsreader', serif;
-    font-size: 13px;
+    font-size: 10px;
+    align-self: end;
 }
 
     
